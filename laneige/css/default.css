@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+dl,dt,dd,ol,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #141414;
+}
+.cf:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    color: #141414;
+    font-family: 'NotoSans',sans-serif;
+}
+img{
+    border: 0;
+}
